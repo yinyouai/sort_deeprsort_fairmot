@@ -116,7 +116,7 @@ pip install ultralytics
      ├── det/               # 检测结果（由gen_det_yolov8.py生成）
      └── label_02/          # 真值标注
      ```
-   - 由于数据集较大请从官方下载：[KITTI官网]([链接地址](http://www.cvlibs.net/datasets/kitti/eval_tracking.php?benchmark=tracking))
+   - 由于数据集较大请从官方下载：[[KITTI官网](http://www.cvlibs.net/datasets/kitti/eval_tracking.php?benchmark=tracking)]
       
 4. **下载模型权重**
    - YOLOv8权重：`yolov8n.pt`（已包含在项目中）
