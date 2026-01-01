@@ -116,11 +116,12 @@ pip install ultralytics
      ├── det/               # 检测结果（由gen_det_yolov8.py生成）
      └── label_02/          # 真值标注
      ```
-
+   - 由于数据集较大请从官方下载：[KITTI官网]([链接地址](http://www.cvlibs.net/datasets/kitti/eval_tracking.php?benchmark=tracking))
+      
 4. **下载模型权重**
    - YOLOv8权重：`yolov8n.pt`（已包含在项目中）
    - DeepSORT ReID权重：`src/deepsort/reid/ckpt.t7`（已包含）
-   - FairMOT权重：`weights/fairmot_dla34.pth`（如需要）
+   - FairMOT权重：`weights/fairmot_dla34.pth`[Google](https://drive.google.com/file/d/1SFOhg_vos_xSYHLMTDGFVZBYjo8cr2fG/view)[Baidu](https://pan.baidu.com/share/init?surl=JZMCVDyQnQCa5veO73YaMw)
 
 ## 使用流程
 
@@ -213,15 +214,9 @@ python analysis/evlal_fairmot.py
   - 各序列的指标
   - 遮挡级别统计
   
-- **metrics/**: 通用评估指标
+- **metrics/**: SORT评估指标
 
 ### 5. 可视化
-
-运行可视化脚本查看跟踪结果：
-
-```bash
-python analysis/visualize_tracks.py
-```
 
 ## 评估指标
 
