@@ -121,7 +121,7 @@ pip install ultralytics
 4. **下载模型权重**
    - YOLOv8权重：`yolov8n.pt`（已包含在项目中）
    - DeepSORT ReID权重：`src/deepsort/reid/ckpt.t7`（已包含）
-   - FairMOT权重：`weights/fairmot_dla34.pth`[Google](https://drive.google.com/file/d/1SFOhg_vos_xSYHLMTDGFVZBYjo8cr2fG/view)[Baidu](https://pan.baidu.com/share/init?surl=JZMCVDyQnQCa5veO73YaMw)
+   - FairMOT权重：`weights/fairmot_dla34.pth`[[Google](https://drive.google.com/file/d/1SFOhg_vos_xSYHLMTDGFVZBYjo8cr2fG/view)][[Baidu](https://pan.baidu.com/share/init?surl=JZMCVDyQnQCa5veO73YaMw)]
 
 ## 使用流程
 
