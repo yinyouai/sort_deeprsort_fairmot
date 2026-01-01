@@ -1,0 +1,7 @@
+﻿指标对,目标密度组,序列数,源指标,目标指标,Pearson相关系数,P值,显著性,相关性强度,相关性方向
+ID切换次数（标准化）→MOTA,稀疏密度,5,num_switches_std,mota,-0.937,0.0188,*p<0.05,强,负相关
+ID切换次数（标准化）→MOTA,中等密度,11,num_switches_std,mota,-0.141,0.6781,ns（p≥0.05）,弱,负相关
+ID切换次数（标准化）→MOTA,密集密度,5,num_switches_std,mota,-0.734,0.1578,ns（p≥0.05）,强,负相关
+Precision→IDF1,稀疏密度,5,precision,idf1,0.865,0.0582,ns（p≥0.05）,强,正相关
+Precision→IDF1,中等密度,11,precision,idf1,0.942,0.0,***p<0.001,强,正相关
+Precision→IDF1,密集密度,5,precision,idf1,0.994,0.0005,***p<0.001,强,正相关

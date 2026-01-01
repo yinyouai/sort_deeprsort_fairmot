@@ -1,0 +1,12 @@
+﻿指标1,指标2,Pearson相关系数,P值,相关性强度
+mota,idf1,0.732,0.0002,强正相关
+mota,num_switches_std,-0.814,0.0,强负相关
+mota,num_objects_std,-0.796,0.0,强负相关
+mota,precision,0.736,0.0001,强正相关
+motp,idf1,-0.65,0.0014,强负相关
+idf1,num_switches_std,-0.613,0.0032,强负相关
+idf1,precision,0.947,0.0,强正相关
+idf1,recall,-0.629,0.0023,强负相关
+num_switches_std,num_objects_std,0.954,0.0,强正相关
+num_switches_std,recall,0.604,0.0037,强正相关
+num_objects_std,recall,0.613,0.0031,强正相关
